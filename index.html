@@ -7,19 +7,115 @@
     </style>
     <head>
         <meta charset="utf-8">
-        <title>Hi</title>
+        <title>介紹</title>
     </head>
     <body>
+
+        <div class="frame">
+            <img src="https://i.imgur.com/Fgh89yb.png"/>
+            <style>
+                frame {  
+                height: 160px; 
+                width: 160px; 
+                position: relative;
+                }
+                img {  
+                max-height: 100%;  
+                max-width: 100%; 
+                width: auto;
+                height: auto;
+                position: absolute;  
+                top: 0;
+                left: 0;  
+                right: 0;       
+                margin: auto;
+            }
+            </style>
+
+        </div>
         <div style="color:#00FFFF;">
+        <style>
+                @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+        </style>
         <h1>0</h1>
         <p><i><b>1</b></i></p><hr/>
         <h2>asdcxzd</h2>
         <p>hey</p>
+
+        <div class="main">
+            <table>
+              <tr>
+                <th>Company</th>
+                <td><a href="https://www.youtube.com/watch?v=CLUPkcLQm64">html</a><br/></td>
+              </tr>
+              <tr>
+                <th>Founded</th>
+                <td>1990/3/20</td>
+              </tr>
+              <tr>
+                <th>Employees</th>
+                <td>500</td>
+              </tr>
+              <tr>
+                <th>E-mail</th>
+                <td>contact@css-play.com</td>
+              </tr>
+            </table>
+        </div>
+        <style>
+                            table{
+        width: 100%;
+  border-collapse: collapse;
+}
+
+table tr{
+  border-bottom: solid 2px rgb(249, 249, 252);
+}
+
+table tr:last-child{
+  border-bottom: none;
+}
+
+table th{
+  position: relative;
+  width: 40%;
+  background-color: #1eafdb;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+table th:after{
+  display: block;
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  top:calc(50% - 10px);
+  right:-10px;
+  border-left: 10px solid #1eafdb;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
+
+table td{
+  text-align: left;
+  width: 80%;
+  text-align: center;
+  background-color: rgb(157, 215, 233);
+  padding: 10px 0;
+}
+
+.main {
+  margin: 20px auto;
+  item-align: center;
+  width: 60%;
+}
+        </style>
         <a href="https://www.youtube.com/watch?v=CLUPkcLQm64">html</a><br/>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png"height="350"/>
         <p>請在下方輸入</p>
         <input type="text" placeholder="輸入"/>
         </div>
+        
     </body>
 </html>
-https://ithelp.ithome.com.tw/articles/10185295
